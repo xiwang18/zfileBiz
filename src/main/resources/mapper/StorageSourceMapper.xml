@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="im.zhaojun.zfile.admin.mapper.StorageSourceMapper">
-  <resultMap id="BaseResultMap" type="im.zhaojun.zfile.admin.model.entity.StorageSource">
+<mapper namespace="im.zhaojun.zfileBiz.admin.mapper.StorageSourceMapper">
+  <resultMap id="BaseResultMap" type="im.zhaojun.zfileBiz.admin.model.entity.StorageSource">
     <!--@mbg.generated-->
     <!--@Table "storage_source"-->
     <id column="id" jdbcType="INTEGER" property="id" />

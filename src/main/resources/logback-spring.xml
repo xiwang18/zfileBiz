@@ -83,7 +83,7 @@
     <logger name="org.hibernate.SQL" additivity="false" level="debug"/>
 
     <springProfile name="dev">
-        <logger name="im.zhaojun.zfile.admin.mapper" additivity="false" level="debug">
+        <logger name="im.zhaojun.zfileBiz.admin.mapper" additivity="false" level="debug">
             <appender-ref ref="stdout"/>
             <appender-ref ref="appLogAppender"/>
         </logger>
